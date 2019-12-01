@@ -1,0 +1,20 @@
+{
+
+  "description": "Shows if a question belonging to a virtual contest already solved or not",
+  "manifest_version": 2,
+  "name": "Leetcode Virtual Solved",
+  "version": "1.0",
+  "homepage_url": "https://github.com/ketankr9",
+  "icons": {
+    "48": "icons/lc.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
